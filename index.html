@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelers</title>
+    <link href="/your-path-to-uicons/css/uicons-[your-style].css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee Outline|Merriweather">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9b6ccb31fc.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="custom-cod">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2 fixed-top">
+        <div class="container">
+            <a class="navbar-brand">Travelers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#open">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="open">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Destination" class="nav-link">Destination</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Blogs</a>
+                    </li>
+                </ul>
+                <!-- <button class="custom-btn" data-bs-toggle="modal" data-bs-target="#mymodal" type="button">Book
+                    Now</button> -->
+                    <button type="button" class="custom-btn" data-bs-toggle="modal" data-bs-target="#mymodal">Book Now</button>
+
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+       
+
+<div class="modal fade" id="mymodal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header justify-content-center bg-dark">
+        <h5 class="modal-title text-white" id="exampleModalLabel">B<span class="text-primary">oo</span>k Now</h5>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-1">
+            <label for="Name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" id="recipient-name" placeholder="Enter your Name">
+          </div>
+          <div class="mb-1">
+            <label for="Email" class="col-form-label">Email:</label>
+            <input type="email" class="form-control" id="recipient-name" placeholder="Enter your Email">
+          </div>
+          <div class="mb-1">
+            <label for="Phone no" class="col-form-label">Phone no:</label>
+            <input type="number" class="form-control" id="recipient-name" placeholder="Enter your Phone no">
+          </div>
+          <div class="mb-1">
+            <label for="Destinetion" class="col-form-label">Destinetion:</label>
+            <input type="number" class="form-control" id="recipient-name" placeholder="Enter your Destinetion">
+          </div>
+
+
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer bg-dark">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="container setimg d-flex flex-column align-items-center justify-content-center  text-white">
+            <h5 class="custom-txt1">Follow Us</h3>
+                <h1 class="custom-txt2">To The Unknown</h1>
+                <p class="mb-0">deleniti voluptates beatae consequuntur ad? Veniam rem molr Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. Fuga, eligendi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quas.</p>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#mymodal" class="custom-btn">Book Now</button >
+
+                <div class="container custom-design">
+                    <div class="container  bg-dark text-white p-3">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <span>Where For?</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-lg-3">
+                                <span>When</span>
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="col-lg-3">
+                                <span>How Many?</span>
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="col-lg-3 mt-4">
+                                <button class="btn btn-success form-control bg-primary">Find Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- slider -->
+    <section id="about">
+        <div class="container mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div id="carousel_con" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators mb-0">
+                                <button type="button" data-bs-target="#carousel_con" data-bs-slide-to="0"
+                                    class="active"></button>
+                                <button type="button" data-bs-target="#carousel_con" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carousel_con" data-bs-slide-to="2"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <video src="./Assets/video (1080p) (1).mp4" autoplay loop muted
+                                        class="d-block w-100 img-fluid"></video>
+                                </div>
+                                <div class="carousel-item">
+                                    <video src="./Assets/video (1080p).mp4" autoplay loop muted
+                                        class="d-block w-100 img-fluid"></video>
+                                </div>
+                                <div class="carousel-item">
+                                    <video src="./Assets/video (1080p) (1).mp4" autoplay loop muted
+                                        class="d-block w-100 img-fluid"></video>
+                                </div>
+                            </div>
+                            <div class="carousel-control-prev" type="button" data-bs-target="#carousel_con"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </div>
+                            <div class="carousel-control-next" type="button" data-bs-target="#carousel_con"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-white mt-5">
+                        <h5 class="custom-color">Why Choose Us</h5>
+                        <h1>Nature's Majesty Awaits You</h1>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure animi esse
+                            inventore.
+                        </p>
+                        <p>Lorem inventore.</p>
+                        <button class="custom-btn">Read More</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- destination -->
+    <section id="Destination" class="mt-5 text-center">
+        <h5 class="custom-color mb-0">Our Destination</h4>
+            <h1 class="text-white">Make Yours Destination</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="./Assets/victor-DM7anCVliOc-unsplash.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Tour & Travel</p>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </p>
+                                <br>
+                                <button class="custom-btn">Read More ></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="./Assets/home.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Tour & Travel</p>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </p>
+                                <br>
+                                <button class="custom-btn">Read More ></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="./Assets/vaida-tamosauskaite-oJofV8dZd_w-unsplash.jpg" alt=""
+                                class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Tour & Travel</p>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </p>
+                                <br>
+                                <button class="custom-btn">Read More ></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="./Assets/van-williams-5AienHYlOoA-unsplash.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Tour & Travel</p>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </p>
+                                <br>
+                                <button class="custom-btn">Read More ></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="./Assets/arthur-poulin-NhU0nUR7920-unsplash.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Tour & Travel</p>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </p>
+                                <br>
+                                <button class="custom-btn">Read More ></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="./Assets/chang-duong-Sj0iMtq_Z4w-unsplash.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Tour & Travel</p>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </p>
+                                <br>
+                                <button class="custom-btn">Read More ></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="./Assets/victor-DM7anCVliOc-unsplash.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Tour & Travel</p>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </p>
+                                <br>
+                                <button class="custom-btn">Read More ></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="./Assets/vaida-tamosauskaite-oJofV8dZd_w-unsplash.jpg" alt=""
+                                class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Tour & Travel</p>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </p>
+                                <br>
+                                <button class="custom-btn">Read More ></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+    </section>
+
+
+    <!-- sevices -->
+    <section id="Services" class="mt-5 text-center">
+        <h4 class="custom-color mb-1">Our Services</h4>
+        <h1 class="text-white mb-3">Countless Experience</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card bg-dark text-white p-3">
+                        <i class="fa-solid fa-globe custom-bg"></i>
+                        <div class="card-body">
+                            <h5 class="text-white card-text">Worldwide</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,vero.Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card bg-dark text-white p-3">
+                        <i class="fa-solid fa-person-hiking custom-bg"></i>
+                        <div class="card-body">
+                            <h5 class="text-white card-text">Worldwide</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,vero.Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card bg-dark text-white p-3">
+                        <i class="fa-solid fa-utensils custom-bg"></i>
+                        <div class="card-body">
+                            <h5 class="text-white card-text">Worldwide</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,vero.Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 mb-5">
+                <div class="col-lg-4">
+                    <div class="card bg-dark text-white p-3">
+                        <i class="fa-solid fa-hotel custom-bg"></i>
+                        <div class="card-body">
+                            <h5 class="text-white card-text">Worldwide</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,vero.Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-dark text-white p-3">
+                        <i class="fa-solid fa-wallet custom-bg"></i>
+                        <div class="card-body">
+                            <h5 class="text-white card-text">Worldwide</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,vero.Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card bg-dark text-white p-3">
+                        <i class="fa-solid fa-headset custom-bg"></i>
+                        <div class="card-body">
+                            <h5 class="text-white card-text">Worldwide</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,vero.Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="Gallery"></section>
+    <div class="container text-center text-white">
+        <h5 class="custom-color">Our Gallery</h5>
+        <h3>We Record Memories</h3>
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="./Assets/sea.jpg" alt="" class="img-fluid custom_hover">
+            </div>
+            <div class="col-lg-4">
+                <img src="./Assets/sky5.jpg" alt="" class="img-fluid custom_hover">
+                <div class="blank bg-dark text-white custom-hover">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <img src="./Assets/f2.jpg" alt="" class="img-fluid custom_hover">
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-lg-4">
+                <img src="./Assets/forest.jpg" alt="" class="img-fluid custom_hover">
+            </div>
+            <div class="col-lg-8">
+                <img src="./Assets/square-zoo3.jpg" alt="" class="img-fluid custom_hover">
+            </div>
+        </div>
+        <div class="row mt-3 mb-5">
+            <div class="col-lg-4">
+                <img src="./Assets/square-lakes.jpg" alt="" class="img-fluid custom_hover">
+            </div>
+            <div class="col-lg-4">
+                <img src="./Assets/vill.jpg" alt="" class="img-fluid custom_hover">
+            </div>
+            <div class="col-lg-4">
+                <img src="./Assets/square-lakes.jpg" alt="" class="img-fluid custom_hover">
+            </div>
+        </div>
+    </div>
+
+    <!-- Blogs and posts -->
+    <section id="Blogs_and_Posts" class="mb-5">
+        <div class="container text-center">
+            <h5 class="custom-color">Blogs & Posts</h5>
+            <h3 class="text-white">The Untold Story</h3>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card bg-dark text-white">
+                        <img src="./Assets/home.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, ipsa.</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, repudiandae.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <div>
+                                <i class="fa-solid fa-clock custom-bg2">&nbsp;</i><span>27th Dec 2023</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-user custom-bg2"></i>&nbsp;By Admin
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-dark text-white">
+                        <img src="./Assets/home.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, ipsa.</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, repudiandae.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <div>
+                                <i class="fa-solid fa-clock custom-bg2">&nbsp;</i><span>27th Dec 2023</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-user custom-bg2"></i>&nbsp;By Admin
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card bg-dark text-white">
+                        <img src="./Assets/home.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, ipsa.</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, repudiandae.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <div>
+                                <i class="fa-solid fa-clock custom-bg2">&nbsp;</i><span>27th Dec 2023</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-user custom-bg2"></i>&nbsp;By Admin
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Testimonals text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-5 text-white mt-5">
+                    <h5 class="custom-color">Testimonals</h5>
+                    <h3>Good News From Our Clients</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo officia laboriosam molestiae.
+                        Hic,<br> corporis quod omnis laboriosam sint nisi obcaecati eveniet pariatur a rem, quam quia
+                        libero, deserunt <br> eligendi tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Non, cum.</p>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card bg-dark p-1">
+                                <div class="card-body text-white">
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt</p>
+                                </div>
+                                <div class="d-flex align-items-center ">
+                                    <img src="./Assets/home.jpg" alt="" class="custom-img ">&nbsp;
+                                    <div>
+                                        <h6 class="text-white mb-0">JOhan Deo</h6>
+                                        <p class="custom-color">Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card bg-dark p-1">
+                                <div class="card-body text-white">
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt</p>
+                                </div>
+                                <div class="d-flex align-items-center ">
+                                    <img src="./Assets/home.jpg" alt="" class="custom-img ">&nbsp;
+                                    <div>
+                                        <h6 class="text-white mb-0">JOhan Deo</h6>
+                                        <p class="custom-color">Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mt-4">
+                            <div class="card bg-dark p-1">
+                                <div class="card-body text-white">
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt</p>
+                                </div>
+                                <div class="d-flex align-items-center ">
+                                    <img src="./Assets/home.jpg" alt="" class="custom-img ">&nbsp;
+                                    <div>
+                                        <h6 class="text-white mb-0">JOhan Deo</h6>
+                                        <p class="custom-color">Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mt-4">
+                            <div class="card bg-dark p-1">
+                                <div class="card-body text-white">
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt</p>
+                                </div>
+                                <div class="d-flex align-items-center ">
+                                    <img src="./Assets/home.jpg" alt="" class="custom-img ">&nbsp;
+                                    <div>
+                                        <h6 class="text-white mb-0">JOhan Deo</h6>
+                                        <p class="custom-color">Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Banner section -->
+
+
+    <section id="Banner">
+        <div class="ads">
+            <div class="container text-white text-center">
+                <div class="row justify-content-center">
+                    <h5>Start Your Adventure</h5>
+                    <h1>Let's Explore This World</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus veniam aut et voluptates
+                        delectus, animi tempore earum non magni. Quibusdam.</p>
+                    <button class="custom-btn mt-5">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <footer>
+            <div class="container">
+                <div class="row text-white mt-5">
+                    <div class="col-lg-3 ">
+                        <h5>Travelers</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, recusandae.</p>
+                        <div class="socal_con text-white mt-3">
+                            <span class="bdr"><i class="fa-brands fa-facebook"></i></span>
+                            <span class="bdr"> <i class="fa-brands fa-twitter"></i></span>
+                            <span class="bdr"> <i class="fa-brands fa-instagram"></i></span>
+                            <span class="bdr"> <i class="fa-brands fa-linkedin"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 quick_link">
+                        <h5>Quick Links</h5>
+                        <a href="#Home" class="nav-link text-white">🏡 Home</a>
+                        <a href="#about" class="nav-link text-white">🙋🏻‍♂️ About</a>
+                        <a href="#Destination" class="nav-link text-white">🐫 Destination</a>
+                        <a href="#Gallery" class="nav-link text-white">🖼️ Gallery</a>
+                        <a href="#Contact" class="nav-link text-white">📞 Contact</a>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <h5>Our Address</h5>
+                        <div class="mb-2  "><i class="fa-solid bdr2  fa-map"></i> Mumbai,India-404020</div>
+                        <div class="mb-2 "><i class="fa-solid  bdr2 fa-phone"></i> Mumbai,India-404020</div>
+                        <div class="mb-2 "><i class="fa-brands bdr2  fa-signal-messenger"></i> Mumbai,India-404020</div>
+                        <div class="mb-2 "><i class="fa-solid  bdr2 fa-clock"></i> Mumbai,India-404020</div>
+                    </div>
+
+                    <div class="col-lg-3 text-white">
+                        <h5>Newsletter</h5>
+                        <p>Subscribe for latest Updates</p>
+                        <form class="mt-2">
+                            <input type="text" class="form-control p-1 custom-boder" placeholder="Enter your email">
+                        </form>
+                        <br>
+                        <button class="custom-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+    <!-- Testimonals -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
