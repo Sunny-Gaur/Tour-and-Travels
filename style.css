@@ -1,97 +1,152 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    scroll-padding-top: var(--scroll-padding,85px);
+    scroll-padding-top: var(--scroll-padding, 85px);
 
 }
+.fa-brands:hover{
+    transform: translate(-10px,-20px);
+    transition: all 2s ease-in-out;
+}
+#Destination .container .row .col-lg-3 {
+    margin-bottom: 20px;
+}
+
+#Services .container .row .col-lg-4 {
+    margin-bottom: 30px;
+}
+
+#Blogs_and_Posts .container .row .col-lg-4 {
+    margin-bottom: 30px;
+
+}
+
+.parent {
+    position: relative;
+}
+
+.custom-hover-animation {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding-top: 20%;
+    top: 0;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    transition: all 2ms ease-in-out;
+}
+
+.fa-star {
+    color: gold;
+}
+
+.custom-hover-animation:hover {
+    opacity: 10;
+}
+
+/*  */
+
+
 /* custom color */
 
-.nav-item a:hover{
-    border-bottom:2px solid rgb(22, 151, 231);
+.nav-item a:hover {
+    border-bottom: 2px solid rgb(22, 151, 231);
 }
 
-.modal-body{
+.modal-body {
     background-image: url("./Assets/flower2.jpg");
-    background-position:center;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: rgb(19, 19, 19);
     z-index: 1;
 }
-.quick_link a:hover{
+
+.quick_link a:hover {
     text-align: center;
-    border:2px solid rgb(22, 151, 231);
+    border: 2px solid rgb(22, 151, 231);
 
 }
 
-.custom-btn{
+.custom-btn {
     padding: 3px 14px;
     background-color: transparent;
-    color:  rgb(22, 151, 231);;
-    border: 2px solid  rgb(22, 151, 231);;
+    color: rgb(22, 151, 231);
+    ;
+    border: 2px solid rgb(22, 151, 231);
+    ;
     border-radius: 60px;
     width: fit-content;
     font-weight: 600;
-    
+
 }
-.custom-bg{
+
+.custom-bg {
     color: rgb(22, 151, 231);
     font-size: 35px;
 }
-.custom-bg2{
+
+.custom-bg2 {
     color: rgb(22, 151, 231);
 }
-.custom-img{
+
+.custom-img {
     height: 50px;
     width: 50px;
-    border-radius:60%;
+    border-radius: 60%;
 }
-.custom-boder{
+
+.custom-boder {
     border: 2px solid rgb(23, 181, 216);
 }
-.bdr{
+
+.bdr {
     height: 30px;
     width: 30px;
-    background:  rgb(22, 151, 231);
+    background: rgb(22, 151, 231);
     padding: 8px;
-    border-radius:60px;
-}
-.card{
-background-color: #212529 !important;
-color:#ffffff;
+    border-radius: 60px;
 }
 
-.card:hover{
-    transform: translate(-5px,-10px);
-    box-shadow:10px 10px 10px #ffff;
-}
-.bdr2{
-    color:rgb(22, 151, 231);
-}
-.custom_hover:hover{
-    transform: translate(-5px,-10px);
-    box-shadow:10px 10px 10px #ffff;
+.card {
+    background-color: #212529 !important;
+    color: #ffffff;
 }
 
-::-webkit-scrollbar{
-    background-color:black;
+.card:hover {
+    transform: translate(-5px, -10px);
+    box-shadow: 10px 10px 10px #ffff;
 }
 
-::-webkit-scrollbar-thumb{
+.bdr2 {
+    color: rgb(22, 151, 231);
+}
+
+/* .custom_hover:hover {
+    transform: translate(-5px, -10px);
+    box-shadow: 10px 10px 10px #ffff;
+} */
+
+::-webkit-scrollbar {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
     background-color: rgb(22, 151, 231);
     border-radius: 30px;
 }
 
 
 
-    
-.ads{
+
+.ads {
     background-image: url("./Assets/sky5.jpg");
     background-size: cover;
     background-attachment: fixed;
-    background-position:0 92.9125 px;
+    background-position: 0 92.9125 px;
     padding: 5rem 0;
 }
 
@@ -104,7 +159,7 @@ color:#ffffff;
 .custom-hover:hover{
     opacity: 500;
 } */
-.setimg{
+.setimg {
     background-image: url("/Assets/home.jpg");
     border-radius: 10px;
     min-height: 87vh;
@@ -115,37 +170,42 @@ color:#ffffff;
 }
 
 
-.custom-cod{
+.custom-cod {
     background-color: rgb(29, 28, 28);
 }
-.custom-btn:hover{
+
+.custom-btn:hover {
     /* background-color: rgb(16, 50, 50); */
     background-color: rgb(22, 151, 231);
-    color:white;
-    border:2px solid #ffff;
+    color: white;
+    border: 2px solid #ffff;
 }
-.custom-design{
+
+.custom-design {
     position: absolute;
     bottom: -30px;
 }
-.form-control{
-    border-radius: 60px ;
+
+.form-control {
+    border-radius: 60px;
 }
-p{
+
+p {
     font-weight: 300;
     font-size: 10px;
     margin-bottom: 0;
 }
-.custom-color{
-    color: rgb(37, 113, 113); ;
+
+.custom-color {
+    color: rgb(37, 113, 113);
+    ;
 }
 
-.custom-txt1{
-    font-family:'Bungee Outline';
+.custom-txt1 {
+    font-family: 'Bungee Outline';
 }
-.custom-txt2{
+
+.custom-txt2 {
     font-family: 'Merriweather';
     font-weight: 700;
 }
-
-
